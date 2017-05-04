@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for imageView in the main screen [CHAR LIMIT=12] -->
+    <string name="music_image">Music Image</string>
+
+    <!-- Category name for songs [CHAR LIMIT=12] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for albums [CHAR LIMIT=12] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for artists [CHAR LIMIT=12] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for playlist [CHAR LIMIT=12] -->
+    <string name="category_playlist">Playlist</string>
+
+    <!-- Name for TextView1 [CHAR LIMIT=12] -->
+    <string name="TextView1">TextView 1</string>
+
+    <!-- Name for TextView2 [CHAR LIMIT=12] -->
+    <string name="TextView2">TextView 2</string>
+
+    <!-- Description name for Disc Images [CHAR LIMIT=12] -->
+    <string name="disc_image">Disc Image</string>
+
+    <!-- Description of main screen -->
+    <string name="main_description">This is the main screen of the app at startup with 4 explicit intents for each category! It contains 1 ImageView and 4 TextViews.</string>
+
+    <!-- Description of songs screen -->
+    <string name="songs_description">This is the songs screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of songs.</string>
+
+    <!-- Description of albums screen -->
+    <string name="albums_description">This is the albums screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of albums.</string>
+
+    <!-- Description of artists screen -->
+    <string name="artists_description">This is the artists screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of artists.</string>
+
+    <!-- Description of playlist screen -->
+    <string name="playlist_description">This is the playlist screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of playlists.</string>
+
+
+</resources>

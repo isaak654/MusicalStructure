@@ -1,0 +1,135 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="dividerHorizontal">@color/dividerColor</item>
+        <!--Background color of all activities-->
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+
+    <!-- Style for imageView in main screen -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">194dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- Style for categories in main screen -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">115dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Style for Description in main screen -->
+    <style name="MainDescriptionStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for Descriptions inside other activities -->
+    <style name="SecondaryDescriptionStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for Disc Images inside other activities -->
+    <style name="Badge1Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+    </style>
+
+    <!-- Style for Disc Images inside other activities -->
+    <style name="Badge2Style">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <!-- Style for Album Description1 inside album activity -->
+    <style name="AlbumDescription1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Album Description2 inside album activity -->
+    <style name="AlbumDescription2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Artist Description1 inside artist activity -->
+    <style name="ArtistsDescription1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Artist Description2 inside artist activity -->
+    <style name="ArtistsDescription2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Playlist Description1 inside playlist activity -->
+    <style name="PlaylistDescription1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Playlist Description2 inside playlist activity -->
+    <style name="PlaylistDescription2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Songs Description1 inside songs activity -->
+    <style name="SongsDescription1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">17dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Style for Songs Description2 inside songs activity -->
+    <style name="SongsDescription2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+</resources>

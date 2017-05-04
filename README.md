@@ -1,0 +1,1 @@
+The project is about creating a musical structure with explicit intents!
