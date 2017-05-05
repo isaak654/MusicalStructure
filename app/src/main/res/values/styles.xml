@@ -84,6 +84,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">17dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Album Description2 inside album activity -->
@@ -92,6 +93,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">11dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Artist Description1 inside artist activity -->
@@ -100,6 +102,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">17dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Artist Description2 inside artist activity -->
@@ -108,6 +111,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">11dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Playlist Description1 inside playlist activity -->
@@ -116,6 +120,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">17dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Playlist Description2 inside playlist activity -->
@@ -124,6 +129,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">11dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Songs Description1 inside songs activity -->
@@ -132,6 +138,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">17dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
     <!-- Style for Songs Description2 inside songs activity -->
@@ -140,6 +147,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">11dp</item>
         <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">17sp</item>
     </style>
 
 </resources>
