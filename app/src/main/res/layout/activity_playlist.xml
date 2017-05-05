@@ -29,18 +29,20 @@
             app:srcCompat="@drawable/disc_vinyl" />
 
         <TextView
+            android:id="@+id/Playlist1"
             style="@style/PlaylistDescription1"
-            android:text="@string/TextView1"
+            android:text="@string/Playlist1"
             app:layout_constraintBottom_toBottomOf="@+id/Badge1"
             app:layout_constraintLeft_toRightOf="@+id/Badge1" />
 
         <TextView
+            android:id="@+id/Playlist2"
             style="@style/PlaylistDescription2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="11dp"
-            android:text="@string/TextView2"
+            android:text="@string/Playlist2"
             app:layout_constraintLeft_toRightOf="@+id/Badge2"
             app:layout_constraintTop_toTopOf="@+id/Badge2" />
 

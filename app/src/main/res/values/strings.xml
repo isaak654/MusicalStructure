@@ -18,11 +18,32 @@
     <!-- Category name for playlist [CHAR LIMIT=12] -->
     <string name="category_playlist">Playlist</string>
 
-    <!-- Name for TextView1 [CHAR LIMIT=12] -->
-    <string name="TextView1">TextView 1</string>
+    <!-- Category name for now playing [CHAR LIMIT=12] -->
+    <string name="category_now_playing">Now Playing</string>
 
-    <!-- Name for TextView2 [CHAR LIMIT=12] -->
-    <string name="TextView2">TextView 2</string>
+    <!-- Name for Song 1 [CHAR LIMIT=12] -->
+    <string name="Song1">Song 1</string>
+
+    <!-- Name for Song 2 [CHAR LIMIT=12] -->
+    <string name="Song2">Song 2</string>
+
+    <!-- Name for Album 1 [CHAR LIMIT=20] -->
+    <string name="Album1">Album 1</string>
+
+    <!-- Name for Album 2 [CHAR LIMIT=20] -->
+    <string name="Album2">Album 2</string>
+
+    <!-- Name for Artist 1 [CHAR LIMIT=20] -->
+    <string name="Artist1">Artist 1</string>
+
+    <!-- Name for Artist 2 [CHAR LIMIT=20] -->
+    <string name="Artist2">Artist 2</string>
+
+    <!-- Name for Playlist 1 [CHAR LIMIT=20] -->
+    <string name="Playlist1">Playlist 1</string>
+
+    <!-- Name for Playlist 2 [CHAR LIMIT=20] -->
+    <string name="Playlist2">Playlist 2</string>
 
     <!-- Description name for Disc Images [CHAR LIMIT=12] -->
     <string name="disc_image">Disc Image</string>
@@ -31,7 +52,7 @@
     <string name="main_description">This is the main screen of the app at startup with 4 explicit intents for each category! It contains 1 ImageView and 4 TextViews.</string>
 
     <!-- Description of songs screen -->
-    <string name="songs_description">This is the songs screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of songs.</string>
+    <string name="songs_description">This is the songs screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of songs. You can click on a song to open the media player screen.</string>
 
     <!-- Description of albums screen -->
     <string name="albums_description">This is the albums screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of albums.</string>
@@ -40,7 +61,11 @@
     <string name="artists_description">This is the artists screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of artists.</string>
 
     <!-- Description of playlist screen -->
-    <string name="playlist_description">This is the playlist screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of playlists.</string>
+    <string name="playlist_description">This is the playlist screen of the app opened from an explicit intent in MainActivity! You can go back through the back button in action bar. It contains 2 Badges and 2 TextViews to represent a hypothetical list of playlist. You can click on a playlist to open the media player screen.</string>
+
+    <!-- Description of Now playing screen -->
+    <string name="now_playing_description">This is the now playing screen of the app! You can go back through the back button in action bar. It will be used ExoPlayer library to implement the Media player functionality.</string>
+
 
 
 </resources>

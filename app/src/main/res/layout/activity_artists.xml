@@ -30,7 +30,7 @@
 
         <TextView
             style="@style/ArtistsDescription1"
-            android:text="@string/TextView1"
+            android:text="@string/Artist1"
             app:layout_constraintBottom_toBottomOf="@+id/Badge1"
             app:layout_constraintLeft_toRightOf="@+id/Badge1" />
 
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="11dp"
-            android:text="@string/TextView2"
+            android:text="@string/Artist2"
             app:layout_constraintLeft_toRightOf="@+id/Badge2"
             app:layout_constraintTop_toTopOf="@+id/Badge2" />
 

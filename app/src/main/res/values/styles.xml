@@ -42,11 +42,21 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <!-- Style for Descriptions inside other activities -->
+    <!-- Style for Descriptions inside Albums, Artists, Playlist, Songs activities -->
     <style name="SecondaryDescriptionStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for Description inside Now Playing activity -->
+    <style name="NowPlayingDescriptionStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">37dp</item>
         <item name="android:layout_marginLeft">32dp</item>
         <item name="android:layout_marginRight">32dp</item>
         <item name="android:gravity">center</item>
